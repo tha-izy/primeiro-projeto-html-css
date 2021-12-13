@@ -24,6 +24,7 @@ header {
     font-weight: bold;
     font-size: 18px;
 }
+
 .input {
     border-radius: 32px;
     height: 0;
@@ -43,7 +44,7 @@ header {
 }
 
 .input:hover {
-    background: #c9af1c;
+    background: #980d9c;
     border: solid #FFFFFF 1px;
     border-radius: 20px;
     text-decoration: none;
