@@ -1,6 +1,7 @@
 html {
     height: 100vh;
     width: 100vw;
+    background-color: #e6e3e3;
 }
 
 header {
@@ -56,3 +57,76 @@ main {
     height: 70vh;
     text-align: center;
 }
+
+.submenu {
+	background: #ecebeb;
+	padding: 1px 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+}
+
+.submenu > div {
+    display: flex;
+}
+
+.submenu > div > img {
+    margin-right: 5px;
+}
+.sobre {
+    background: #FFFFFF;
+    padding: 10px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    height: 40vh;
+}
+
+.imagem-sobre {
+    display: flex;
+    width: 30%;
+    float: left;
+}
+
+.lista-sobre {
+    text-align: left;
+}
+
+/* .sobre {
+	background: #ecebeb;
+	padding: 20px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.imagem-sobre {
+	display: flex;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+}
+
+.conteudo-sobre {
+	width: 450px;
+	margin: 20px auto;
+}
+
+.lista-sobre {
+	display: flex;
+    text-align: center;
+    width: 55%;
+    padding: 100px 40px;
+ }
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+ */
