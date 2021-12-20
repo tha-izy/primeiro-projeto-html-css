@@ -1,12 +1,18 @@
 html {
     height: 100vh;
     width: 100vw;
-    background-color: #e6e3e3;
+}
+
+body {
+    
+    width:100%;
+    margin: 0 auto;
+    background-color: #e9dee9;
 }
 
 header {
 	background: #8C52FF;
-	padding: 5px 200px;
+	padding: 3px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,16 +31,17 @@ header {
     font-weight: bold;
     font-size: 18px;
 }
+
 .input {
     border-radius: 32px;
     height: 0;
     line-height: 0;
     color: #FFFFFF;
     font-family: Trebuchet MS;
-    width: 50px;
-    font-size: 21px;
+    width: 40px;
+    font-size: 15px;
     font-weight: 100;
-    padding: 21px;
+    padding: 15px;
     background-color: #8C52FF;
     border: solid #FFFFFF 1px;
     text-decoration: none;
@@ -44,7 +51,7 @@ header {
 }
 
 .input:hover {
-    background: #c9af1c;
+    background: #371d6b;
     border: solid #FFFFFF 1px;
     border-radius: 20px;
     text-decoration: none;
@@ -54,17 +61,21 @@ main {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 70vh;
+    height: 80vh;
+    padding: 10px auto;
     text-align: center;
+    margin-left: 10vh;
 }
 
 .submenu {
-	background: #ecebeb;
-	padding: 1px 375px;
+	background:#ecebeb;
+	padding: 5px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 7vh;
+    margin-left: 30px;
+    width: 70vw;
 }
 
 .submenu > div {
@@ -73,24 +84,72 @@ main {
 
 .submenu > div > img {
     margin-right: 5px;
+    }
+
+.conteudo-sobre {
+    padding: 1px;
+    background-color:#ecebeb;
+    border-radius: 5px;
+    width: 85vw;
+    text-align: center;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 30px;
 }
-.sobre {
+/* .sobre {
     background: #FFFFFF;
     padding: 10px 400px;
     display: flex;
     justify-content: space-between;
     align-items: justify;
     height: 40vh;
-}
+} */
 
 .imagem-sobre {
     display: flex;
-    width: 30%;
+    width: 15%;
     float: left;
+    margin-top: 3%;
+    margin-left: 1%;
 }
 
 .lista-sobre {
     text-align: left;
+    margin-top: 5%;
+    margin-left: 250px;
+    font-size: 20px;
+    
+}
+
+
+.links {
+    position: relative;
+	width: 430px;
+	margin: 25px auto;
+    }
+
+.links > nav {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+.links > nav li {
+	display: inline;
+	margin: 0 0 0 105px;
+    }
+
+.links > nav a {
+    color: #240e25;
+	font-size: 18px;
+	text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+
+.links > nav a:hover {
+	text-decoration: underline;
+    
 }
 
 /* .sobre {

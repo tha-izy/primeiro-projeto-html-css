@@ -5,11 +5,12 @@ html {
 
 header {
 	background: #8C52FF;
-	padding: 5px 200px;
+	padding: 3px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    color: #dfd4dc;
 }
 
 .logo {
@@ -31,10 +32,10 @@ header {
     line-height: 0;
     color: #FFFFFF;
     font-family: Trebuchet MS;
-    width: 50px;
-    font-size: 21px;
+    width: 40px;
+    font-size: 15px;
     font-weight: 100;
-    padding: 21px;
+    padding: 15px;
     background-color: #8C52FF;
     border: solid #FFFFFF 1px;
     text-decoration: none;
