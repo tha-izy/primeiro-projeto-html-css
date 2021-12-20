@@ -1,0 +1,51 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+	background: #8C52FF;
+	padding: 5px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > h1 {
+
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input {
+    border-radius: 32px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    width: 50px;
+    font-size: 21px;
+    font-weight: 100;
+    padding: 21px;
+    background-color: #8C52FF;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.input:hover {
+    background: #980d9c;
+    border: solid #FFFFFF 1px;
+    border-radius: 20px;
+    text-decoration: none;
+}
