@@ -1,12 +1,17 @@
 html {
     height: 100vh;
     width: 100vw;
-    background-color: #e6e3e3;
+}
+
+body {
+    width:100%;
+    margin: 0 auto;
+    background-color: #e7e2e7;
 }
 
 header {
 	background: #8C52FF;
-	padding: 5px 200px;
+	padding: 3px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,21 +25,22 @@ header {
 }
 
 .logo > h1 {
-
     font-family: 'Trebuchet MS';
     font-weight: bold;
     font-size: 18px;
+    color: blanchedalmond;
 }
+
 .input {
     border-radius: 32px;
     height: 0;
     line-height: 0;
     color: #FFFFFF;
     font-family: Trebuchet MS;
-    width: 50px;
-    font-size: 21px;
+    width: 40px;
+    font-size: 15px;
     font-weight: 100;
-    padding: 21px;
+    padding: 15px;
     background-color: #8C52FF;
     border: solid #FFFFFF 1px;
     text-decoration: none;
@@ -44,7 +50,7 @@ header {
 }
 
 .input:hover {
-    background: #c9af1c;
+    background: #371d6b;
     border: solid #FFFFFF 1px;
     border-radius: 20px;
     text-decoration: none;
@@ -53,44 +59,99 @@ header {
 main {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    height: 70vh;
-    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    }
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 80%;
 }
 
 .submenu {
-	background: #ecebeb;
-	padding: 1px 375px;
-    display: flex;
+    /* padding: 5px; */
+	display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 5%;
+    width: 100%;
+    border-bottom: seashell 1px solid;
 }
 
 .submenu > div {
+    padding: 8px;
     display: flex;
 }
 
 .submenu > div > img {
     margin-right: 5px;
 }
+
+.conteudo-sobre {
+    padding: 1px;
+    width: 100%85vw;
+    text-align: center;
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
 .sobre {
-    background: #FFFFFF;
-    padding: 10px 400px;
+    /* padding: 10px 400px;
     display: flex;
     justify-content: space-between;
-    align-items: justify;
-    height: 40vh;
+    align-items: justify; */
+    height: 90%;
 }
 
 .imagem-sobre {
     display: flex;
-    width: 30%;
+    width: 15%;
     float: left;
+    margin-top: 3%;
+    margin-left: 1%;
 }
 
 .lista-sobre {
     text-align: left;
+    margin-top: 5%;
+    margin-left: 250px;
+    font-size: 20px;
+    
+}
+
+
+.links {
+    display: flex;
+	width: 100%;
+    height: 5%;
+	justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.links > div {
+    width: 50%;
+    padding: 4px 0;
+   
+}
+
+.links > div:first-child {
+    border-bottom: #371d6b 2px solid;   
+}
+
+.links >  div > a {
+    color: #240e25;
+	font-size: 18px;
+	text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+
+.negrito {
+    font-weight: bold;
 }
 
 /* .sobre {
