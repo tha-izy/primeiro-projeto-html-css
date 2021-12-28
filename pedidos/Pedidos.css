@@ -7,6 +7,8 @@ body {
     width:100%;
     margin: 0 auto;
     background-color: #e7e2e7;
+    font-family:Helvetica;
+    color: #39363a;
 }
 
 header {
@@ -50,7 +52,7 @@ header {
 }
 
 .input:hover {
-    background: #371d6b;
+    background: #eae9eb;
     border: solid #FFFFFF 1px;
     border-radius: 20px;
     text-decoration: none;
@@ -60,24 +62,29 @@ main {
     align-items: center;
     display: flex;
     justify-content: center;
-    height: 80vh;
-    width: 100vw;
-    }
+    height: 80%;
+    margin-top: 30px;
+}
+
+.wrapper {
+    width: 80%;
+    height: 100vh;
+}
 
 section {
-    background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    width: 80%;
+    width: 100%;
 }
 
 .submenu {
     /* padding: 5px; */
-	display: flex;
+    background-color: rgb(239, 231, 243);
+    display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5%;
-    width: 100%;
-    border-bottom: seashell 1px solid;
+    width: 100% ;
+    border-bottom: rgb(214, 207, 202) 1px solid;
 }
 
 .submenu > div {
@@ -90,20 +97,11 @@ section {
 }
 
 .conteudo-sobre {
+    background-color: rgb(239, 231, 243);
     padding: 1px;
-    width: 100%85vw;
+    width: 100% ;
     text-align: center;
     height: 50vh;
-    margin-top: 20px;
-    margin-left: 30px;
-    border-radius: 15px;
-}
-.sobre {
-    /* padding: 10px 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: justify; */
-    height: 90%;
 }
 
 .imagem-sobre {
@@ -118,8 +116,7 @@ section {
     text-align: left;
     margin-top: 5%;
     margin-left: 250px;
-    font-size: 20px;
-    
+    font-size: 15px;
 }
 
 
@@ -130,6 +127,7 @@ section {
 	justify-content: space-between;
     align-items: flex-end;
     text-align: center;
+    background-color: rgb(239, 231, 243);
 }
 
 .links > div {
@@ -154,40 +152,75 @@ section {
     font-weight: bold;
 }
 
-/* .sobre {
-	background: #ecebeb;
-	padding: 20px 400px;
+.segundo-bloco {
+    display: inline-block;
+}
+
+.bebidas {
+    position: relative;
+    padding: 1px;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    height: 30vh;
+    margin-top: 10px;
+    border: rgb(219, 207, 223) 1px solid;
+    border-radius: 2%;
+    background-color: rgb(239, 231, 243);
+}
+
+.img-bebidas {
+    display: flex;
+    width: 20%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.texto-bebidas {
+    text-align: justify;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 125%;
+}
+
+.segcomprar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 15vh;
+    margin-top: 55px;
+
+}
+.preco {
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 12px;
 }
 
-.imagem-sobre {
-	display: flex;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
+.adicionar-carrinho {
+    margin-left: 55%;
+    color:rgb(121, 78, 190);
+    font-weight: bold;
+    font-size: 12px;
 }
 
-.conteudo-sobre {
-	width: 450px;
-	margin: 20px auto;
+.carrinho {
+    width: 35%;
+    text-align: left;
+    height: 20vh;
+    margin-top: 10px;
+    border: rgb(219, 207, 223) 1px solid;
+    border-radius: 2%;
+    background-color: rgb(239, 231, 243);
+    float: right;
 }
 
-.lista-sobre {
-	display: flex;
+.img-carrinho {
+    width: 25px;
+}
+
+.dentro-carrinho {
     text-align: center;
-    width: 55%;
-    padding: 100px 40px;
- }
-
-.itens {
-	line-height: 1.5;
+    margin-top: 5%;
 }
-
-.itens:first-child {
-	font-weight: bold;
-}
- */
