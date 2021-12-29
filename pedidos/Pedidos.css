@@ -80,7 +80,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100% ;
+    width: 100%;
     border-bottom: rgb(214, 207, 202) 1px solid;
 }
 
